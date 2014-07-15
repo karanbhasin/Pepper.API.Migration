@@ -3,7 +3,7 @@
   lastDeploymentId: deploymentId of the last deployed package. generally lastDeploymentId should be nextDeploymentId -1, but in 
   case of rollbacks, these can be far apart
 -->
-<environment name="{0}" lastDeploymentId="{1}" nextDeploymentId="1">
+<environment name="{0}" lastDeploymentId="0" nextDeploymentId="1">
   <deployments>
     <!-- This will contain deployment nodes. The template for deployment node is in DeploymentTemplate.xml -->
     <!-- each deployment has a status: deployed, rolledback. In case of rolledback, it will also have rolledbackTimeStamp-->
